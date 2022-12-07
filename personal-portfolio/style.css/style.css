@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('/image/bckgr.jpg');
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 350px;
+    height: 254px;
+    margin-top: -30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul{
+    margin-bottom: 7%;
+}
+
+nav {
+    width: 95%;
+}
+
+nav ul li a:hover{
+    color: rgb(215, 194, 194);
+    transition: .3s ease-in-out;
+}
+
+.contact a{
+    color:rgb(31, 129, 31);
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 9%;
+}
+
+.details h1{
+    font-size: 50px;
+    color:rgb(92, 83, 83);
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(212, 130, 130);
+}
+
+.details p{
+    color: #d54848;
+    line-height: 22px;
+}
+
+.img1 {
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-right: 8%;
+}
+
+hr{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;    
+}
+
+@media only screen and (max-width: 768px)
+{
+    .img1{
+        margin-right: -23%;
+        bottom: 64px;
+    }
+
+    .fb img {
+        width: 328px;
+        height: 199px;
+        margin-left: -20px;
+    }
+
+    .linkedin img {
+        margin-top: 5%;
+        width: 220px;
+        height: 179px;
+    }
+
+    .details {
+        margin-top: 23%;
+    }
+
+    .git img {
+        width: 250px;
+        height: 220px;
+        margin-left: -30px;
+    }
+}
+
+@media only screen and (max-width: 280px)
+{
+    .img {
+        width: 173px;
+        height: 188px;
+        margin-top: -117px;
+        margin-left: -30px;
+    }
+
+    ul {
+        margin-left: -26px;
+        margin-bottom: 7%;
+    }
+
+    .details h1 {
+        margin-left: -7px;
+    }
+
+    .fb img{
+        width: 147px;
+        height: 90px;
+    }
+
+    .linkedin img{
+        width: 90px;
+        height: 80px;
+    }
+
+    .git img {
+        width: 81px;
+        height: 83px;
+        margin-left: -2px;
+    }
+
+    .img1 img{
+        width: 143px;
+        height: 145px;
+    }  
+
+    .img1{
+        bottom: -45px;
+        right: 213px;
+    }
+}
+@media only screen and (max-width: 412px)
+{
+    .img {
+        width: 205px;
+        height: 204px;
+        margin-top: -87px;
+        margin-left: -10px;
+    }
+
+    .details {
+        margin-top: 60%;
+    }
+
+    .fb img {
+        width: 201px;
+        height: 130px;
+        margin-left: -35px;
+    }
+
+    .linkedin img {
+        margin-top: 9%;
+        width: 119px;
+        height: 112px;
+    }
+    
+    .git img {
+        width: 139px;
+        height: 133px;
+        margin-left: -19px;
+    }
+
+    .details {
+        margin-top: 81%;
+    }
+
+    .img1 {
+        margin-right: -2%;
+        bottom: 36px;
+    }
+    
+}
